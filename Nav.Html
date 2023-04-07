@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+        }
+
+        nav{
+            /* border: 1px solid red */
+            height: 10vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(204, 255, 0);
+        }
+        nav ul{
+            /* border: 1px solid green; */
+            width: 50%;
+            height: 10vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        nav ul li{
+            /* border: 1px solid yellow; */
+            list-style: none;
+            padding: 1rem;
+            border-radius: 10px;
+            font-size: 1.3rem;+
+            transition: all ease.5s;
+            color: white;
+        }
+
+        nav ul li:hover{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</body>
+</html>
